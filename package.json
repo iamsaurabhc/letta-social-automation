@@ -20,7 +20,13 @@
     },
     "packageManager": "pnpm@8.x",
     "dependencies": {
+        "@nestjs/bull": "^11.0.2",
+        "@nestjs/common": "^11.0.10",
+        "@nestjs/config": "^4.0.0",
+        "@types/cors": "^2.8.17",
         "axios": "^1.7.9",
+        "bull": "^4.16.5",
+        "cors": "^2.8.5",
         "dotenv": "^16.4.7",
         "express": "^4.21.2"
     },
