@@ -23,6 +23,7 @@
         "@nestjs/bull": "^11.0.2",
         "@nestjs/common": "^11.0.10",
         "@nestjs/config": "^4.0.0",
+        "@nestjs/platform-express": "^11.0.10",
         "@types/cors": "^2.8.17",
         "axios": "^1.7.9",
         "bull": "^4.16.5",
@@ -31,6 +32,8 @@
         "express": "^4.21.2"
     },
     "devDependencies": {
+        "@types/express": "^5.0.0",
+        "@types/multer": "^1.4.12",
         "@types/node": "^22.13.4"
     }
 }
